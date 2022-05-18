@@ -1,0 +1,69 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        height: 735px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/mobile-top.jpg);
+    }
+    .top h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .main h2,
+    .middle h2,
+    .title h2,
+    .create h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .top p,
+    .main p,
+    .middle p,
+    .title p,
+    .create p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .top button,
+    .middle button,
+    .title button {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .middle img,
+    .title img {
+        max-width: 88%;
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+    .middle {
+        display: flex;
+        justify-content: space-between;
+        gap: 135px;
+        flex-wrap: wrap;
+    }
+    .middle__text {
+        margin-top: 150px;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        gap: 160px;
+        flex-wrap: wrap-reverse;
+    } 
+
+}
