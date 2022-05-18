@@ -1,0 +1,177 @@
+.main {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    background: #000915;
+    min-height: 556px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    
+    &__item {
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__item a {
+        display: block;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        padding-left: 32px;
+        padding-bottom: 32px;
+    }
+    &__item:nth-of-type(1) {
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/top-cont-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &__item:nth-of-type(2) {
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/top-cont-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &__item:nth-of-type(3) {
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/top-cont-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+.middle {
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    justify-content: space-between;
+    gap: 135px;
+    position: relative;
+    &__text h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+    &__text p {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__text button {
+        margin-top: 57px;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+}
+.title {
+    height: 800px;
+    background: #000915;
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    position: relative;
+    &__text h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+    &__text p {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__text {
+        position: relative;
+    }
+    &__text button {
+        position: absolute;
+        left: 0;
+        margin-top: 57px;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+}
+.create {
+    height: 800px;
+    background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/create.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    &__text h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__text p {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__text button {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 57px;
+        width: 234.06px;
+        height: 48.6px;
+        background: #9C0332;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        align-items: center;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+.footer {
+    color: #FFFFFF;
+    height: 80px;
+    background: #000915;
+    text-align: center;
+    border: 1px solid rgba(184, 212, 255, 0.2);
+    box-sizing: border-box;
+    padding-top: 30px;
+}
